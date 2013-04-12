@@ -14,3 +14,11 @@
     <body>
 
         <div id="wrapper">
+
+            <header>
+                <div id="logo" class="logo_hide">
+                    <a href="<?php bloginfo('url'); ?>"><h1>
+                        <?php bloginfo('name'); ?>    
+                    </h1></a>
+                </div>
+            </header>
