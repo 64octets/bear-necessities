@@ -1,3 +1,16 @@
+/*
+    SASS variables start with $ before the name.
+*/
+
+$myColor1: navy;
+$mycolor2: #000000;
+$margin_stand: 10px 0px 10px 0px;
+
+
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -18,9 +31,14 @@ table {
 }
 
 /* = Typography
------------------------- */
+-------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6, p { font-family: sans-serif; }
+h1, h2, h3, h4, h5, h6, p { 
+    font-family: sans-serif; 
+    color: $myColor1;
+    margin: $margin_stand;
+}
+
 
 
 /* = WordPress Core
