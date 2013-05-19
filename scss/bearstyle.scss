@@ -46,24 +46,38 @@ footer, header, hgroup, menu, nav, section {
 
 
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+    	line-height: 1;
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+    p {
+        color: black;
+    }
+    a {
+        color: orange;
+        text-decoration: none;
+        &:hover {
+            color:black;      
+            text-decoration: none;      
+        }
+        &:visited{
+            color:black;
+        }
 
+    }
+}
 /* = Typography
 -------------------------------------------------------------- */
 
