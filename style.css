@@ -14,4 +14,8 @@ Tags: bare, naked, framework, template
 Styles are located in folder name CSS file name bearstyle.css 
 ----------------------------------------------------------------------*/
 
-@import url("css/bearstyle.css");
+@import url("css/foundation.css");
+@import url("css/normalize.css");
+
+
+

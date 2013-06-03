@@ -6,6 +6,9 @@ $myColor1: navy;
 $mycolor2: #000000;
 $margin_stand: 10px 0px 10px 0px;
 
+$break-small: 620px;
+$break-medium: 940px;
+$break-large: 1200px;
 
 
 /* = Reset
@@ -170,4 +173,18 @@ a img.aligncenter {
     line-height: 17px;
     margin: 0;
     padding: 0 4px 5px;
+}
+
+#wrapper {
+  width: 550px;
+  margin: 0px auto;
+  @media screen and (min-width: $break-large) {
+    width: 1440px;
+  }
+  @media screen and (max-width: $break-medium) {
+    width: 900px;
+  }
+  @media screen and (max-width: $break-small) {
+    width: 250px;
+  }  
 }

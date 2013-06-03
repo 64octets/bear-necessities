@@ -8,13 +8,16 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+        
         <?php wp_head(); ?>
+    
+
     </head>
 
     <body>
 
-        <div id="wrapper">
-
+        <div class="row">
+            <div class="small-11 columns">
             <header>
                 <div id="logo" class="logo_hide">
                     <a href="<?php bloginfo('url'); ?>"><h1>

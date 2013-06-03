@@ -158,3 +158,23 @@ a img.aligncenter {
   margin: 0;
   padding: 0 4px 5px;
 }
+
+#wrapper {
+  width: 550px;
+  margin: 0px auto;
+}
+@media screen and (min-width: 1200px) {
+  #wrapper {
+    width: 1440px;
+  }
+}
+@media screen and (max-width: 940px) {
+  #wrapper {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 620px) {
+  #wrapper {
+    width: 250px;
+  }
+}
